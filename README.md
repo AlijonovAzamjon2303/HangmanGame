@@ -8,4 +8,4 @@ ishlaydigan va uni xotiraga saqlab qo'yadigan qilsak bo'ladi.
  
 Dastur boshlanish qismi.   
 
-Assalom
+![Demo](demo.gif)

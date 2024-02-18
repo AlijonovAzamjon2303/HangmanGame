@@ -1,5 +1,6 @@
 ﻿// book
 string correctAnswer = "Book";
+int fails = 0;
 Console.WriteLine("Assalomu alaykum, Hangman o'yiniga xush kelibsiz!");
 Console.WriteLine("Sizga savol beriladi va siz ularga javob topish orqali");
 Console.WriteLine("yashiringan so'zni topishingiz kerak bo'ladi\n");
@@ -31,6 +32,8 @@ string Hangman(string question, string answer)
         if(userInput.ToLower() != answer.ToLower())
         {
             Console.WriteLine("Sizning javobingiz xato, qaytadan urinib ko'ring!\n");
+            fails++;
+            Thread.Sleep(2000);
         }
     }while(userInput.ToLower() != answer.ToLower());
     Console.Clear();
