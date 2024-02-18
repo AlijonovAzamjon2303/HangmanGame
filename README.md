@@ -6,3 +6,5 @@ ishlaydigan va uni xotiraga saqlab qo'yadigan qilsak bo'ladi.
 
 ![](rasm1.png "Dastur boshi") 
 Dastur boshlanish qismi.   
+
+Assalom
